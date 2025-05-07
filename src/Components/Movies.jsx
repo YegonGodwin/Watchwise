@@ -1,6 +1,6 @@
 import React from "react";
-import "./Movies.css"; // Add a CSS file for styling
-
+//import "./Movies.css"; // Add a CSS file for styling
+import 'bootstrap/dist/css/bootstrap.min.css';
 function Movies() {
     const movies = [
         { id: 1, title: "Inception", genre: "Sci-Fi", poster: "https://via.placeholder.com/150" },
